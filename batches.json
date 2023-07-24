@@ -1,74 +1,44 @@
 {
   "batch1": {
-    "apps": ["Camera High Frequency", 
-              "Cpu Medium Frequency", 
-              "GPS Low Frequency", 
-              "Local Storage High Frequency", 
-              "Networking Medium Frequency"],
-    "folder_names": ["e-www-cameratest", 
-                  "e-www-cpufactorialtest", 
-                  "e-www-gpstest", 
-                  "e-www-writelocaltest", 
-                  "e-www-httpsrequesttest"]
+    "e-www-cameratest": "Camera High Frequency",
+    "e-www-cpufactorialtest": "Cpu Medium Frequency",
+    "e-www-gpstest": "GPS Low Frequency",
+    "e-www-writelocaltest": "Local Storage High Frequency",
+    "e-www-httpsrequesttest": "Networking Medium Frequency"
   },
   "batch2": {
-    "apps": ["Camera Medium Frequency", 
-              "Cpu Low Frequency", 
-              "GPS High Frequency", 
-              "Local Storage Medium Frequency", 
-              "Networking Low Frequency"],
-    "folder_names": ["e-www-cameratest", 
-                  "e-www-cpufactorialtest", 
-                  "e-www-gpstest", 
-                  "e-www-writelocaltest", 
-                  "e-www-httpsrequesttest"]
+    "e-www-cameratest": "Camera Medium Frequency",
+    "e-www-cpufactorialtest": "Cpu Low Frequency",
+    "e-www-gpstest": "GPS High Frequency",
+    "e-www-writelocaltest": "Local Storage Medium Frequency",
+    "e-www-httpsrequesttest": "Networking Low Frequency"
   },
   "batch3": {
-    "apps": ["Camera Low Frequency", 
-              "Cpu High Frequency", 
-              "GPS Medium Frequency", 
-              "Local Storage Low Frequency", 
-              "Networking High Frequency"],
-    "folder_names": ["e-www-cameratest", 
-                  "e-www-cpufactorialtest", 
-                  "e-www-gpstest", 
-                  "e-www-writelocaltest", 
-                  "e-www-httpsrequesttest"]
+    "e-www-cameratest": "Camera Low Frequency",
+    "e-www-cpufactorialtest": "Cpu High Frequency",
+    "e-www-gpstest": "GPS Medium Frequency",
+    "e-www-writelocaltest": "Local Storage Low Frequency",
+    "e-www-httpsrequesttest": "Networking High Frequency"
   },
   "batch4": {
-    "apps": ["Room Database High Frequency", 
-              "Accelerometer", 
-              "Speaker", 
-              "Ambient Light", 
-              "Microphone"],
-    "folder_names": ["e-www-writeroomtest", 
-                  "e-www-accelerometertest", 
-                  "e-www-speakertest", 
-                  "e-www-ambientlighttest", 
-                  "e-www-microphonetest"]
+    "e-www-writeroomtest": "Room Database High Frequency",
+    "e-www-accelerometertest": "Accelerometer",
+    "e-www-speakertest": "Speaker",
+    "e-www-ambientlighttest": "Ambient Light",
+    "e-www-microphonetest": "Microphone"
   },
   "batch5": {
-    "apps": ["Room Database Medium Frequency", 
-              "Baseline", 
-              "Magnetic Field", 
-              "Display", 
-              "Gyroscope"],
-    "folder_names": ["e-www-writeroomtest", 
-                  "e-www-baseline", 
-                  "e-www-magneticfieldtest", 
-                  "e-www-displaytest", 
-                  "e-www-gyroscopetest"]
+    "e-www-writeroomtest": "Room Database Medium Frequency",
+    "e-www-baseline": "Baseline",
+    "e-www-magneticfieldtest": "Magnetic Field",
+    "e-www-displaytest": "Display",
+    "e-www-gyroscopetest": "Gyroscope"
   },
   "batch6": {
-    "apps": ["Room Database Low Frequency", 
-              "Gravity", 
-              "Cpu INTERVAL", 
-              "Camera INTERVAL", 
-              "Display INTERVAL"],
-    "folder_names": ["e-www-writeroomtest", 
-                  "e-www-gravitytest", 
-                  "x-intervalapp-cameratest", 
-                  "x-intervalapp-cpufactorialtest", 
-                  "x-intervalapp-displaytest"]
+    "e-www-writeroomtest": "Room Database Low Frequency",
+    "e-www-gravitytest": "Gravity",
+    "x-intervalapp-cameratest": "Cpu INTERVAL",
+    "x-intervalapp-cpufactorialtest": "Camera INTERVAL",
+    "x-intervalapp-displaytest": "Display INTERVAL"
   }
 }
