@@ -1,0 +1,74 @@
+{
+  "batch1": {
+    "apps": ["Camera High Frequency", 
+              "Cpu Medium Frequency", 
+              "GPS Low Frequency", 
+              "Local Storage High Frequency", 
+              "Networking Medium Frequency"],
+    "folder_names": ["e-www-cameratest", 
+                  "e-www-cpufactorialtest", 
+                  "e-www-gpstest", 
+                  "e-www-writelocaltest", 
+                  "e-www-httpsrequesttest"]
+  },
+  "batch2": {
+    "apps": ["Camera Medium Frequency", 
+              "Cpu Low Frequency", 
+              "GPS High Frequency", 
+              "Local Storage Medium Frequency", 
+              "Networking Low Frequency"],
+    "folder_names": ["e-www-cameratest", 
+                  "e-www-cpufactorialtest", 
+                  "e-www-gpstest", 
+                  "e-www-writelocaltest", 
+                  "e-www-httpsrequesttest"]
+  },
+  "batch3": {
+    "apps": ["Camera Low Frequency", 
+              "Cpu High Frequency", 
+              "GPS Medium Frequency", 
+              "Local Storage Low Frequency", 
+              "Networking High Frequency"],
+    "folder_names": ["e-www-cameratest", 
+                  "e-www-cpufactorialtest", 
+                  "e-www-gpstest", 
+                  "e-www-writelocaltest", 
+                  "e-www-httpsrequesttest"]
+  },
+  "batch4": {
+    "apps": ["Room Database High Frequency", 
+              "Accelerometer", 
+              "Speaker", 
+              "Ambient Light", 
+              "Microphone"],
+    "folder_names": ["e-www-writeroomtest", 
+                  "e-www-accelerometertest", 
+                  "e-www-speakertest", 
+                  "e-www-ambientlighttest", 
+                  "e-www-microphonetest"]
+  },
+  "batch5": {
+    "apps": ["Room Database Medium Frequency", 
+              "Baseline", 
+              "Magnetic Field", 
+              "Display", 
+              "Gyroscope"],
+    "folder_names": ["e-www-writeroomtest", 
+                  "e-www-baseline", 
+                  "e-www-magneticfieldtest", 
+                  "e-www-displaytest", 
+                  "e-www-gyroscopetest"]
+  },
+  "batch6": {
+    "apps": ["Room Database Low Frequency", 
+              "Gravity", 
+              "Cpu INTERVAL", 
+              "Camera INTERVAL", 
+              "Display INTERVAL"],
+    "folder_names": ["e-www-writeroomtest", 
+                  "e-www-gravitytest", 
+                  "x-intervalapp-cameratest", 
+                  "x-intervalapp-cpufactorialtest", 
+                  "x-intervalapp-displaytest"]
+  }
+}
