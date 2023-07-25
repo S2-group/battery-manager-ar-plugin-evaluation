@@ -62,5 +62,5 @@ def aggregate_end(data_dir, output_file):
     rows = aggregate(data_dir)
     rows.to_csv(output_file, index=False)
 
-aggregate_end('../BM-experiment-raspi-configs/Pixel3-W/Experiment100/batch4/output/2023.07.04_164236/data',\
-              '../BM-experiment-raspi-configs/Pixel3-W/Experiment100/batch4/output/2023.07.04_164236/Aggregated_Results_Batterymanager.csv')
+aggregate_end('./data/Pixel3-W/Experiment100/batch4/output/2023.07.04_164236/data',\
+              './data/Pixel3-W/Experiment100/batch4/output/2023.07.04_164236/Aggregated_Results_Batterymanager.csv')
